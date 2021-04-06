@@ -1,0 +1,116 @@
+body {
+    font-size: 16px;
+    color: black;
+    background-color: whitesmoke;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  /** HEADER **/
+  #header-nav {
+    background-color:burlywood;
+    border-radius: 0;
+    border: 2px solid black;
+  }
+  
+  .navbar-brand {
+    padding: 5px;
+  }
+  .navbar-brand h1 {
+    color: black;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    font-size: 30px;
+    margin: 2px;
+    margin-left: 5px;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  } 
+  #nav-list {
+    margin-top: 1px;
+    margin-bottom: 0px;
+  }
+  #nav-list a {
+    color: whitesmoke;
+    text-align: center;
+    background-color: grey;
+    border: 1px solid black;
+  }
+  #nav-list a:hover {
+    background: black
+  }
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -40px;
+  }
+  /* END HEADER */
+
+/** middle part **/
+
+header#menu {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 27px;
+    margin-bottom: 20px;
+}   
+section {
+    height: 200px;
+    padding: 10px;
+}
+
+.box {
+    background-color: grey;
+    border:  1px solid black;
+    margin-bottom: 30px;
+}
+h4 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px;
+}
+p {
+    font-size: 15px;
+    border: black;
+}
+/** end middle part **/
+
+  /********** Extra small devices only **********/
+  @media (max-width: 767px) {
+    .navbar-brand {
+      margin-left: 20px;
+    }
+    .col-xs-6 {
+        width:70%;
+        margin-left: 15%;
+    }
+
+  }
+  
+  
+/*Super extra small devices Only 8*/
+  @media (max-width: 479px) {
+    .navbar-brand h1 { 
+      padding-top: 5px;
+      font-size: 3vw;
+    }
+
+    .col-xxs-12 {
+      position: relative;
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px;
+      float: left;
+      width: 100%;
+    }
+}
+@media (min-width : 768px) {
+  .col-md-12 .col-sm-12 {
+    margin:0px;
+  }
+}
+
+
+
