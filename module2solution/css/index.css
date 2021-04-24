@@ -15,7 +15,7 @@ header{
 }   
 section {
     width : auto;
-    height: 200px;
+    height: 220px;
     padding: 10px;
 }
 div {
@@ -26,8 +26,8 @@ div {
 .box {
     position: relative;
     background-color: grey;
-    width: auto;
     padding: 15px;
+    width: auto;
     margin: 5px;
     border:  1px solid black;
 }
@@ -35,17 +35,19 @@ h4 {
     background-color: cornsilk;
     width: fit-content;
     font-size: 18.75px;
-    padding: 3px;
-    margin: 0px;
     position: absolute;
     top: 0px;
     right: 0px;
+    padding: 3px;
+    margin: 0px;
     border: 1px solid black;
 }
 p {
-    text-align: center;
+    text-align: left;
     font-size: 15px;
-    color: white;
+    margin: 5px;
+    margin-top: 20px;
+    color: black;
     border: black;
 }
 #div1 h4 {
@@ -60,26 +62,34 @@ p {
 @media(min-width: 992px) {
     .col-lg-4 {
         float: left;
-        border: 1px solid white;
-        width: 33%;
+        width: 32%;
+        margin-left: 10px;
+    }
+    section {
+        height: 250px;
     }
 }
 @media (min-width : 768px) and (max-width : 991px) {
     .col-md-6, .col-md-12 {
         float: left;
-        border: 1px solid white;
     }
     .col-md-6 {
-        width: 50%;
+        width: 48%;
+        margin: 1%;
+        margin-bottom: 1px;
     }
     .col-md-12{
-        width: 100%;
+        width: 98%;
+        margin: 1%;
+        margin-top: 1px;
     }
 }
 @media (max-width : 767px) {
     .col-sm-12 {
         float: left;
-        border: 1px solid white;
-        width: 100%;
+        margin-bottom: 5px;
+        width: 80%;
+        margin-left: 10%;
+        height: 190px;
     }
 }
